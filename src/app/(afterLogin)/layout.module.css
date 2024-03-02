@@ -94,6 +94,11 @@
   height: 100%;
 }
 
+.formContainer {
+  margin-bottom: 60px;
+  width: "inherit";
+}
+
 .search {
   position: fixed;
   height: 42px;
