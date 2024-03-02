@@ -1,8 +1,8 @@
-import SearchForm from "../_component/SearchForm";
-import Trend from "../_component/Trend";
 import style from "./explore.module.css";
+import SearchForm from "@/app/(afterLogin)/_component/SearchForm";
+import Trend from "@/app/(afterLogin)/_component/Trend";
 
-export default function Page() {
+export default function Home() {
   return (
     <main className={style.main}>
       <div className={style.formZone}>
@@ -14,7 +14,13 @@ export default function Page() {
         <Trend />
         <Trend />
         <Trend />
+        <Trend />
+        <Trend />
+        <Trend />
+        <Trend />
+        <Trend />
+        <Trend />
       </div>
     </main>
-  );
+  )
 }
