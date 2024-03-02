@@ -4,7 +4,7 @@ import Link from "next/link";
 import ZLogo from "../../../public/zlogo.png";
 import Image from "next/image";
 import NavMenu from "./_component/NavMenu";
-import LogoutButton from "./_component/LogOutButton";
+import LogoutButton from "./_component/LogoutButton";
 import TrendSection from "./_component/TrendSection";
 import FollowRecommend from "./_component/FollowRecommend";
 
