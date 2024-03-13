@@ -1,13 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
   async rewrites() {
     return [
       {
-        source: '/upload/:slug',
+        source: "/upload/:slug",
         destination: `${process.env.NEXT_PUBLIC_BASE_URL}/upload/:slug`, // Matched parameters can be used in the destination
       },
-    ]
+    ];
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

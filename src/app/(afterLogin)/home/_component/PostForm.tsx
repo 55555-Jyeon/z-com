@@ -11,6 +11,7 @@ import style from "./postForm.module.css";
 import { Session } from "@auth/core/types";
 import TextareaAutosize from "react-textarea-autosize";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
+import { Post } from "@/model/Post";
 
 type Props = {
   me: Session | null;
